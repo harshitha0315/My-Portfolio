@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio- Software Engineer Portfolio</title>
+    <meta name="description" content="Professional portfolio of Harshitha, an aspiring software engineer specializing in full-stack development, React, and modern web technologies." />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating Orbs Background -->
+    <div class="floating-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <h1 class="logo gradient-text">POTTIGARI HARSHITHA</h1>
+                
+                <!-- Desktop Navigation -->
+                <div class="nav-links desktop-nav">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#education">Education</a>
+                    <a href="#projects">Projects</a>
+		    <a href="#certifications">Certifications</a>
+                    <a href="#contact">Contact</a>
+                </div>
+
+                <!-- Mobile Menu Toggle -->
+                <button class="mobile-toggle" id="mobileToggle">
+                    <span class="menu-icon">☰</span>
+                    <span class="close-icon">✕</span>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div class="mobile-nav" id="mobileNav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container text-center animate-slide-up">
+            <!-- Profile Photo -->
+            <div class="profile-photo">
+                <img src="profile-photo.jpg" alt="Profile Photo">
+            </div>
+
+            <!-- Name and Title -->
+            <h1 class="hero-title">
+                <span class="gradient-text">HARSHITHA</span>
+                <br>
+                <span>POTTIGARI</span>
+            </h1>
+
+            <h2 class="hero-subtitle">Aspiring Software Engineer</h2>
+
+            <p class="hero-tagline">"Turning Code into Real-World Solutions"</p>
+
+            <!-- CTA Buttons -->
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    <span>👁</span> View Projects
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    <span>✉</span> Get In Touch
+                </a>
+            </div>
+
+                    </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="gradient-text">About Me</span>
+            </h2>
+
+            <div class="max-w-4xl">
+                <div class="glass-card animate-scale-in">
+                    <h3 class="card-title">My Journey</h3>
+                    <p class="card-text">
+                        Engineering graduate with a solid foundation in Computer Science and Engineering field and hands-on experience from academic projects. Eager to apply my technical skills and problem-solving abilities to drive innovation and contribute to the organization's success.
+                    </p>
+                    <p class="card-text">
+                        Committed to continuous learning and professional growth, with a strong desire to make a meaningful impact in a dynamic engineering environment. Skilled in Java development, UI/UX design and full-stack application development.
+                    </p>
+                    <p class="card-text">
+                        When I'm not coding, I enjoy listening to music, dancing, and traveling. These hobbies help me maintain creativity and fresh perspectives in my work. My goal is to leverage technology to create solutions that make a positive difference in people's lives.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="gradient-text">Education Timeline</span>
+            </h2>
+
+            <div class="max-w-4xl">
+                <div class="timeline">
+                    <!-- Timeline Line -->
+                    <div class="timeline-line"></div>
+
+                    <!-- Education Item 1 -->
+                    <div class="timeline-item animate-slide-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <div class="education-header">
+                                <div class="education-title">
+                                    <span class="icon">🎓</span>
+                                    <h3>B.E. Computer Science</h3>
+                                </div>
+                                <span class="grade-badge">CGPA: 8.89</span>
+                            </div>
+                            <p class="institution">Saveetha School of Engineering, Chennai</p>
+                            <div class="period">
+                                <span>📅</span>
+                                <span>2021 – 2025</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!-- Education Item 2 -->
+                    <div class="timeline-item animate-slide-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <div class="education-header">
+                                <div class="education-title">
+                                    <span class="icon">🎓</span>
+                                    <h3>Intermediate (MPC)</h3>
+                                </div>
+                                <span class="grade-badge">GPA: 8.89</span>
+                            </div>
+                            <p class="institution">Narayana Junior College, Kadapa</p>
+                            <div class="period">
+                                <span>📅</span>
+                                <span>2019 – 2021</span>
+                            </div>
+                                                    </div>
+                    </div>
+
+                    <!-- Education Item 3 -->
+                    <div class="timeline-item animate-slide-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <div class="education-header">
+                                <div class="education-title">
+                                    <span class="icon">🎓</span>
+                                    <h3>Secondary School</h3>
+                                </div>
+                                <span class="grade-badge">GPA: 9.5</span>
+                            </div>
+                            <p class="institution">Sri Chaitanya School, Kadapa</p>
+                            <div class="period">
+                                <span>📅</span>
+                                <span>2019</span>
+                            </div>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Skills Section -->
+    <section id="skills" class="section" style="margin-top: 80px;">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="gradient-text">Technical Skills</span>
+            </h2>
+            
+            <p class="section-subtitle">
+                Comprehensive expertise across full-stack development, cloud technologies, and emerging tech
+            </p>
+
+            <div class="skills-grid-layout">
+                <!-- Programming Languages -->
+                <div class="glass-card">
+                    <div class="skill-category-header">
+                        <span class="skill-icon">💻</span>
+                        <h3 class="card-title">Programming Languages</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Java</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>C++</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>C</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                                            </div>
+                </div>
+
+                <!-- Web Technologies -->
+                <div class="glass-card">
+                    <div class="skill-category-header">
+                        <span class="skill-icon">🌐</span>
+                        <h3 class="card-title">Web Technologies</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>React.js</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Node.js</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Express.js</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>HTML/CSS</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Databases & Cloud -->
+                <div class="glass-card">
+                    <div class="skill-category-header">
+                        <span class="skill-icon">🗄️</span>
+                        <h3 class="card-title">App & UI/UX Development</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>FLutter</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Figma</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>VS Code</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 80%"></div>
+                            </div>
+                        </div>
+			<div class="skill-item">
+                            <div class="skill-header">
+                                <span>Android Studio</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 70%"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Tools & Others -->
+                <div class="glass-card">
+                    <div class="skill-category-header">
+                        <span class="skill-icon">🔧</span>
+                        <h3 class="card-title">Backend & Tools</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>PHP</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>SQL</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>XAMPP</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Postman</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="gradient-text">Featured Projects</span>
+            </h2>
+            
+            <p class="section-subtitle">
+                A showcase of my academic projects demonstrating machine learning, IoT, and full-stack development skills
+            </p>
+
+            <div class="projects-grid">
+		<!-- Project 1: Employee Management -->
+                <div class="glass-card project-card animate-scale-in">
+                    <div class="project-header">
+                        <span class="icon">📱</span>
+                        <h3>Employee Management for Advertising Agency</h3>
+                    </div>
+                    <p class="project-description">
+                        Developed a cross-platform Flutter application tailored for an advertising agency with three user roles—Admin, Employee, and Client. Enabled Clients to request projects, track progress, and view deliverables in Augmented Reality (AR). Enhanced productivity through immersive AR integration.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Flutter</span>
+                        <span class="tech-tag">Android</span>
+                        <span class="tech-tag">iOS</span>
+                        <span class="tech-tag">Augmented Reality</span>
+                        <span class="tech-tag">Figma</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="https://www.figma.com/design/dvKlLV8DutqPRBF3Jb68IB/employee-management-for-advertising-agency?node-id=0-1&t=K085jlrLP3tTdHan-1" target="_blank" class="btn btn-primary btn-sm">
+                            <span>🎨</span> View Design
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2: Smart Home Automation -->
+                <div class="glass-card project-card animate-scale-in">
+                    <div class="project-header">
+                        <span class="icon">🏠</span>
+                        <h3>Smart Home Automation and Security</h3>
+                    </div>
+                    <p class="project-description">
+                        Designed and implemented a smart home system focused on safety, convenience, energy efficiency, and cost savings. Integrated machine learning algorithms, particularly Naive Bayes, to enhance home security features. Performed algorithm accuracy comparisons using SPSS benchmarking.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Machine Learning</span>
+                        <span class="tech-tag">Naive Bayes</span>
+                        <span class="tech-tag">Google Colab</span>
+                        <span class="tech-tag">SPSS</span>
+                        <span class="tech-tag">IoT</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="https://docs.google.com/document/d/1sBEXZaHNr89mYRDT4viuEDf01P1gX3YZKkA0c7L_J1k/edit?usp=sharing" target="_blank" class="btn btn-primary btn-sm">
+                            <span>📄</span> View Abstract
+                        </a>
+                    </div>
+                </div>           
+	    </div> 
+        </div>
+    </section>
+<!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="gradient-text">Certifications & Achievements</span>
+            </h2>
+            
+            <p class="section-subtitle">
+                Industry-recognized certifications demonstrating expertise in cloud technologies, AI, and modern development practices
+            </p>
+
+            <div class="certifications-grid">
+		                <!-- TalentNext Java -->
+                <div class="glass-card cert-card" onclick="window.open('https://ibb.co/PGHRhthN', '_blank')">
+                    <div class="cert-header">
+                        <span class="cert-badge professional">Professional</span>
+                        <span class="cert-icon">☕</span>
+                    </div>
+                    <h3 class="cert-title">Java Full Stack Development</h3>
+                    <p class="cert-issuer">TalentNext</p>
+                    <div class="cert-date">
+                        <span>📅</span>
+                        <span>2024</span>
+                    </div>
+                    <div class="cert-tags">
+                        <span class="cert-tag">Java</span>
+                        <span class="cert-tag">Full Stack</span>
+                    </div>
+                    <div class="cert-verified">
+                        <span>✓ Verified</span>
+                    </div>
+                </div>
+                <!-- Oracle Cloud Infrastructure -->
+                <div class="glass-card cert-card" onclick="window.open('https://ibb.co/3mNLkrRh', '_blank')">
+                    <div class="cert-header">
+                        <span class="cert-badge professional">Professional</span>
+                        <span class="cert-icon">🏆</span>
+                    </div>
+                    <h3 class="cert-title">Oracle Cloud Infrastructure 2024 Generative AI Certified Professional</h3>
+                    <p class="cert-issuer">Oracle University</p>
+                    <div class="cert-date">
+                        <span>📅</span>
+                        <span>July 2024</span>
+                    </div>
+                    <div class="cert-tags">
+                        <span class="cert-tag">Generative AI</span>
+                        <span class="cert-tag">Cloud Infrastructure</span>
+                        <span class="cert-tag">Oracle Cloud</span>
+                    </div>
+                    <div class="cert-verified">
+                        <span>✓ Verified</span>
+                    </div>
+                </div>
+
+                <!-- NPTEL IoT -->
+                <div class="glass-card cert-card" onclick="window.open('https://ibb.co/VYJvf6sd', '_blank')">
+                    <div class="cert-header">
+                        <span class="cert-badge elite">Elite</span>
+                        <span class="cert-icon">🥈</span>
+                    </div>
+                    <h3 class="cert-title">Internet of Things (IoT)</h3>
+                    <p class="cert-issuer">NPTEL</p>
+                    <div class="cert-date">
+                        <span>📅</span>
+                        <span>Silver Certification</span>
+                    </div>
+                    <div class="cert-tags">
+                        <span class="cert-tag">IoT</span>
+                        <span class="cert-tag">Smart Devices</span>
+                        <span class="cert-tag">Networking</span>
+                    </div>
+                    <div class="cert-verified">
+                        <span>✓ Verified</span>
+                    </div>
+                </div>
+
+                <!-- NPTEL Machine Learning -->
+                <div class="glass-card cert-card" onclick="window.open('https://ibb.co/F4S5zYxx', '_blank')">
+                    <div class="cert-header">
+                        <span class="cert-badge elite">Elite</span>
+                        <span class="cert-icon">🎓</span>
+                    </div>
+                    <h3 class="cert-title">Machine Learning</h3>
+                    <p class="cert-issuer">NPTEL</p>
+                    <div class="cert-date">
+                        <span>📅</span>
+                        <span>Elite Certification</span>
+                    </div>
+                    <div class="cert-tags">
+                        <span class="cert-tag">Machine Learning</span>
+                        <span class="cert-tag">AI</span>
+                        <span class="cert-tag">Data Science</span>
+                    </div>
+                    <div class="cert-verified">
+                        <span>✓ Verified</span>
+                    </div>
+                </div>
+
+                <!-- NPTEL Technical English -->
+                <div class="glass-card cert-card" onclick="window.open('https://ibb.co/mYJN309', '_blank')">
+                    <div class="cert-header">
+                        <span class="cert-badge elite">Elite</span>
+                        <span class="cert-icon">🥈</span>
+                    </div>
+                    <h3 class="cert-title">Technical English</h3>
+                    <p class="cert-issuer">NPTEL</p>
+                    <div class="cert-date">
+                        <span>📅</span>
+                        <span>Silver Certification</span>
+                    </div>
+                    <div class="cert-tags">
+                        <span class="cert-tag">Communication</span>
+                        <span class="cert-tag">Technical Writing</span>
+                    </div>
+                    <div class="cert-verified">
+                        <span>✓ Verified</span>
+                    </div>
+                </div>
+
+                <!-- CISCO Data Analysis -->
+                <div class="glass-card cert-card" onclick="window.open('https://ibb.co/M5fp2M0x', '_blank')">
+                    <div class="cert-header">
+                        <span class="cert-badge networking">Networking</span>
+                        <span class="cert-icon">📊</span>
+                    </div>
+                    <h3 class="cert-title">Data Analysis Essentials</h3>
+                    <p class="cert-issuer">CISCO Networking Academy</p>
+                    <div class="cert-date">
+                        <span>📅</span>
+                        <span>2024</span>
+                    </div>
+                    <div class="cert-tags">
+                        <span class="cert-tag">Data Analysis</span>
+                        <span class="cert-tag">Analytics</span>
+                    </div>
+                    <div class="cert-verified">
+                        <span>✓ Verified</span>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+<!-- Certificate Modal -->
+    <div id="certModal" class="cert-modal" onclick="closeCertModal()">
+        <div class="cert-modal-content" onclick="event.stopPropagation()">
+            <span class="cert-modal-close" onclick="closeCertModal()">&times;</span>
+            <img id="certModalImage" src="" alt="Certificate">
+        </div>
+    </div>
+
+<script>
+        function openCertModal(imageUrl) {
+            const modal = document.getElementById('certModal');
+            const modalImg = document.getElementById('certModalImage');
+            modal.classList.add('active');
+            modalImg.src = imageUrl;
+        }
+
+        function closeCertModal() {
+            const modal = document.getElementById('certModal');
+            modal.classList.remove('active');
+        }
+
+        // Animate progress bars when in viewport
+        const progressObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const progressFills = entry.target.querySelectorAll('.progress-fill');
+                    progressFills.forEach(fill => {
+                        const width = fill.style.width;
+                        fill.style.width = '0';
+                        setTimeout(() => {
+                            fill.style.width = width;
+                        }, 100);
+                    });
+                    progressObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.5 });
+
+        document.querySelectorAll('.skills-grid-layout').forEach(grid => {
+            progressObserver.observe(grid);
+        });
+    </script>
+
+    <!-- Contact Section -->
+<section id="contact" class="section">
+    <div class="container">
+        <h2 class="section-title">
+            <span class="gradient-text">Get In Touch</span>
+        </h2>
+        
+        <p class="section-subtitle">
+            Let's discuss your next project or explore opportunities to work together
+        </p>
+
+        <div class="contact-grid">
+            <!-- Contact Information -->
+            <div class="contact-info animate-slide-up">
+                <h3 class="card-title">Let's Connect</h3>
+                <p class="card-text">
+                    I'm always interested in hearing about new opportunities, 
+                    collaborations, or just having a chat about technology and development.
+                </p>
+
+                <div class="contact-items">
+                    <a href="mailto:pottigariharshitha@gmail.com" class="contact-item glass-card">
+                        <div class="contact-icon">✉</div>
+                        <div>
+                            <p class="contact-label">Email</p>
+                            <p class="contact-value">pottigariharshitha@gmail.com</p>
+                        </div>
+                    </a>
+
+                    <a href="tel:+91 6281114556" class="contact-item glass-card">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <p class="contact-label">Phone</p>
+                            <p class="contact-value">+91 6281114556</p>
+                        </div>
+                    </a>
+
+                    <div class="contact-item glass-card">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <p class="contact-label">Location</p>
+                            <p class="contact-value">Andhra Pradesh, India</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Social Links -->
+                <div class="social-links">
+                    <a href="https://github.com/harshitha0315" target="_blank" class="social-icon" aria-label="GitHub">⚡</a>
+                    <a href="https://www.linkedin.com/in/pottigari-harshitha-023983285" target="_blank" class="social-icon" aria-label="LinkedIn">💼</a>
+                    <a href="resume.pdf" download="Harshitha_Pottigari_Resume.pdf" class="social-icon" aria-label="Resume">📄</a>
+                </div>
+
+                <!-- Copyright -->
+                <div class="copyright">
+                    <p>© 2025 Harshitha Pottigari. Made with <span class="heart">❤</span> and passion</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
